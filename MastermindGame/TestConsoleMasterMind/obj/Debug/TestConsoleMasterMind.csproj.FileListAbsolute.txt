@@ -1,0 +1,8 @@
+C:\Users\ALAMEEN\Documents\Visual Studio 2012\Projects\RootIT\Workout\MastermindGame\TestConsoleMasterMind\bin\Debug\TestConsoleMasterMind.exe.config
+C:\Users\ALAMEEN\Documents\Visual Studio 2012\Projects\RootIT\Workout\MastermindGame\TestConsoleMasterMind\bin\Debug\TestConsoleMasterMind.exe
+C:\Users\ALAMEEN\Documents\Visual Studio 2012\Projects\RootIT\Workout\MastermindGame\TestConsoleMasterMind\bin\Debug\TestConsoleMasterMind.pdb
+C:\Users\ALAMEEN\Documents\Visual Studio 2012\Projects\RootIT\Workout\MastermindGame\TestConsoleMasterMind\bin\Debug\MastermindGame.dll
+C:\Users\ALAMEEN\Documents\Visual Studio 2012\Projects\RootIT\Workout\MastermindGame\TestConsoleMasterMind\bin\Debug\MastermindGame.pdb
+C:\Users\ALAMEEN\Documents\Visual Studio 2012\Projects\RootIT\Workout\MastermindGame\TestConsoleMasterMind\obj\Debug\TestConsoleMasterMind.exe
+C:\Users\ALAMEEN\Documents\Visual Studio 2012\Projects\RootIT\Workout\MastermindGame\TestConsoleMasterMind\obj\Debug\TestConsoleMasterMind.pdb
+C:\Users\ALAMEEN\Documents\Visual Studio 2012\Projects\RootIT\Workout\MastermindGame\TestConsoleMasterMind\obj\Debug\TestConsoleMasterMind.csprojResolveAssemblyReference.cache

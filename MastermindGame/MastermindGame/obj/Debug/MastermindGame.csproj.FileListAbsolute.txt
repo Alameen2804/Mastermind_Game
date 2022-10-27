@@ -1,0 +1,5 @@
+C:\Users\ALAMEEN\Documents\Visual Studio 2012\Projects\RootIT\Workout\MastermindGame\MastermindGame\bin\Debug\MastermindGame.dll
+C:\Users\ALAMEEN\Documents\Visual Studio 2012\Projects\RootIT\Workout\MastermindGame\MastermindGame\bin\Debug\MastermindGame.pdb
+C:\Users\ALAMEEN\Documents\Visual Studio 2012\Projects\RootIT\Workout\MastermindGame\MastermindGame\obj\Debug\MastermindGame.csprojResolveAssemblyReference.cache
+C:\Users\ALAMEEN\Documents\Visual Studio 2012\Projects\RootIT\Workout\MastermindGame\MastermindGame\obj\Debug\MastermindGame.dll
+C:\Users\ALAMEEN\Documents\Visual Studio 2012\Projects\RootIT\Workout\MastermindGame\MastermindGame\obj\Debug\MastermindGame.pdb
