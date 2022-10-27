@@ -39,9 +39,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="MastermindBoard.cs" />
-    <Compile Include="MastermindColors.cs" />
-    <Compile Include="MastermindKeys.cs" />
+    <Compile Include="Board.cs" />
+    <Compile Include="CodeMaker.cs" />
+    <Compile Include="Keys.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

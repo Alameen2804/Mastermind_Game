@@ -17,9 +17,9 @@ namespace TestConsoleMasterMind
 
         static void Main(string[] args)
         {
-            MastermindBoard mmBoard = new MastermindBoard();
-            MastermindKeys mmKeys = new MastermindKeys();
-            MastermindColors mmColors = new MastermindColors();
+            Board mmBoard = new Board();
+            Keys mmKeys = new Keys();
+            CodeMaker mmColors = new CodeMaker();
 
             int temp = 1;
             SystemCodeMaker = new int[4];
@@ -28,21 +28,19 @@ namespace TestConsoleMasterMind
 
             Console.WriteLine("MyMasterMind Game");
             Console.WriteLine(Print2DIntegerArray(CodeBreaker));
-            int[] RandomArray = mmColors.GenerateMakerArrayHard();
+            int[] RandomArray = mmColors.GenerateMakerArray();
             Console.WriteLine(PrintIntegerArray(RandomArray));
             while (Size > 0)
             {
-
-                Console.Clear();
                 Console.WriteLine("Enter the 4 numbers such as(1234): ");
                 No = int.Parse(Console.ReadLine());
-                Console.WriteLine(Print2DIntegerArray(mmBoard.AllocateElements(CodeBreaker, mmBoard.GetDigits(No), temp)));
+                Console.WriteLine(Print2DIntegerArray(mmBoard.SetInputInBoard(CodeBreaker, mmBoard.GetDigitsArrayFromInput(No), temp)));
                 Console.Write("Keys:\t");
-                Console.WriteLine(PrintCharArray(mmKeys.CompareMakerAndBreakerArray(RandomArray, mmBoard.GetDigits(No))));
-                mmKeys.CompareMakerAndBreakerArray(mmColors.GenerateMakerArrayEasy(), mmBoard.GetDigits(No));
+                Console.WriteLine(PrintCharArray(mmKeys.CompareMakerAndBreakerArray(RandomArray, mmBoard.GetDigitsArrayFromInput(No))));
+                mmKeys.CompareMakerAndBreakerArray(mmColors.GenerateMakerArray(), mmBoard.GetDigitsArrayFromInput(No));
                 Size = Size - 4;
                 temp++;
-                if (mmKeys.CheckWin(mmKeys.CompareMakerAndBreakerArray(RandomArray, mmBoard.GetDigits(No))) == 1)
+                if (mmKeys.CheckWin(mmKeys.CompareMakerAndBreakerArray(RandomArray, mmBoard.GetDigitsArrayFromInput(No))) == true)
                 {
                     Console.WriteLine("Codemaker value: " + PrintIntegerArray(RandomArray));
                     Console.WriteLine("CodeBreaker has won the match!!!");
